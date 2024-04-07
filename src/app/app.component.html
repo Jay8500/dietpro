@@ -302,107 +302,80 @@
   <span class="text-base">Dietitian Way</span>
   <div class="spacer"></div>
 </div>
-<!-- style="background-image: url('assets/images/dietico.jpeg');background-repeat: no-repeat;" -->
-<div>
 
-  <div class="content" role="main">
-    <input type="hidden" #selection>
-    <div class="card-container">
-      <button class="card card-small" (click)="selection.value = 'component'" tabindex="0">
-        <!-- <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-        </svg> -->
-        <span>Nutrition Content</span>
-      </button>
 
-      <!-- <button class="card card-small" (click)="selection.value = 'material'" tabindex="0">
-        <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-        </svg>
-        <span>Angular Material</span>
-      </button> -->
+<div class="grid" style="margin-top: 100px;">
+  <div class="col-12 lg:col-3 xl:col-3 md:col-4 sm:col-12">
+    <div class="card" style="height: 300px;width: 300px;">
+      <img src="assets/m.jpeg" alt="" width="100%" height="100%">
     </div>
+  </div>
+  <div class="col-12 lg:col-3 xl:col-3 md:col-4 sm:col-12">
+    <div class="card" style="height: 300px;width: 300px;">
+      <img src="assets/images.jpeg" alt="" width="100%" height="100%">
+      <div class="container flex  flex-column">
 
-
-    <!-- Terminal -->
-    <div class="terminal text-center" [ngSwitch]="selection.value">
-      <pre *ngSwitchDefault>
-         <p class="text-orange-400 text-base justify-content-center align-items-center">
-          How to increase your energy by changing these 3 things in your diet
-
-          Keto, Paleo, or Mediterranean? Which diet is right for you?
-
-You need to stop eating these 4 foods if you want to have a more productive day
-
-What are super foods and how can you include them in your diet?
-
-What’s a nutritionist?
-
-5 ways to increase your vitamin and mineral intake through food
-
-Here’s why everyone needs to hydrate properly
-
-Got cramps? Here’s what you can eat and drink to stop them
-
-How to help your toddler eat more fruits and vegetables
-
-Why do people hire nutritionists?
-
-What do low carb diets do to your body?
-
-Meet people in your neighborhood who have lost weight by hiring a nutritionist!
-
-Here’s an easy salad recipe you’ll love making for friends and family
-
-Does your sleep affect your ability to lose weight?
-
-4 weight-loss myths too many people believe
-
-Should you roast or steam vegetables?
-
-Here's what happens when you choose a plant-based diet
-
-You’ll love this fresh berry smoothie recipe
-
-How to reduce the sugar intake in your diet
-
-Should you hire a nutritionist?
-
-Here are 5 foods that’ll boost your immune system
-
-How much weight do you need to lose to be healthy?
-
-What should you be eating if you’re lifting weights?
-
-Get more out of your workouts by making these changes to your diet
-
-Here’s a list of frequently used terms every nutritionist uses
-
-Here are 5 questions you need to ask when looking for your own nutritionist
-
-What are the nutritional benefits of eating seafood?
-
-Is red meat good for you?
-
-How to increase your vitamin and mineral intake in your everyday diet
-
-Here are 4 surprisingly great sources of protein
-
-What can you do to improve your health with just food?
-
-         </p>  
-      </pre>
-      <pre *ngSwitchCase="'material'">ng add @angular/material</pre>
+      </div>
     </div>
+  </div>
+  <div class="col-12 lg:col-3 xl:col-3 md:col-4 sm:col-12">
+    <div class="card" style="height: 300px;width: 300px;">
+      <img src="assets/xc.jpg" alt="" width="100%" height="100%">
+      <div class="container flex  flex-column">
 
-    <!-- Links -->
-    <div class="card-container">
+      </div>
+    </div>
+  </div>
+  <div class="col-12 lg:col-3 xl:col-3 md:col-4 sm:col-12">
+    <div class="card" style="height: 300px;width: 300px;">
+      <img src="assets/io.png" alt="" width="100%" height="100%">
+      <div class="container flex  flex-column">
 
-      <a class="circle-link" title="Have meetup on WhatsApp" [href]="getWhatsAppLink()" target="_blank" rel="noopener">
-        <i class="pi pi-whatsapp"></i>
-      </a>
+      </div>
     </div>
   </div>
 </div>
 
-<router-outlet></router-outlet>
+<div class="grid">
+  <div class="col-12 lg:col-3 xl:col-3 md:col-4 sm:col-12">
+    <div class="card" style="height: 300px;width: 300px;">
+      <p>
+        Nutrient content claims are statements on the labels of foods, food products and dietary supplements that
+        describe the amounts of nutrients or dietary substances in these products.
+      </p>
+    </div>
+  </div>
+  <div class="col-12 lg:col-3 xl:col-3 md:col-4 sm:col-12">
+    <div class="card" style="height: 300px;width: 300px;">
+      <p>
+        Nutrient content claims are statements on the labels of foods, food products and dietary supplements that
+        describe the amounts of nutrients or dietary substances in these products.
+      </p>
+    </div>
+  </div>
+  <div class="col-12 lg:col-3 xl:col-3 md:col-4 sm:col-12">
+    <div class="card" style="height: 300px;width: 300px;">
+      <p>
+        Nutrient content claims are statements on the labels of foods, food products and dietary supplements that
+        describe the amounts of nutrients or dietary substances in these products.
+      </p>
+    </div>
+  </div>
+  <div class="col-12 lg:col-3 xl:col-3 md:col-4 sm:col-12">
+    <div class="card" style="height: 300px;width: 300px;">
+      <p>
+        Nutrient content claims are statements on the labels of foods, food products and dietary supplements that
+        describe the amounts of nutrients or dietary substances in these products.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="card-container">
+
+  <a class="circle-link" title="Have meetup on WhatsApp" [href]="getWhatsAppLink()" target="_blank" rel="noopener">
+    <i class="pi pi-whatsapp"></i>
+  </a>
+</div>
+
+<!-- <router-outlet></router-outlet> -->
